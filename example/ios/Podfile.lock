@@ -1,0 +1,41 @@
+PODS:
+  - dpay_flutter (0.0.1):
+    - DpaySDK (= 1.0.3)
+    - Flutter
+    - SnowplowTracker (~> 1.6.0)
+  - DpaySDK (1.0.3):
+    - SnowplowTracker (~> 1.6.0)
+  - Flutter (1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - SnowplowTracker (1.6.2):
+    - FMDB (~> 2.6)
+
+DEPENDENCIES:
+  - dpay_flutter (from `.symlinks/plugins/dpay_flutter/ios`)
+  - Flutter (from `Flutter`)
+  - SnowplowTracker (~> 1.6)
+
+SPEC REPOS:
+  trunk:
+    - DpaySDK
+    - FMDB
+    - SnowplowTracker
+
+EXTERNAL SOURCES:
+  dpay_flutter:
+    :path: ".symlinks/plugins/dpay_flutter/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  dpay_flutter: 827fa258005da8f1a5aee2dbdc99d749acf83964
+  DpaySDK: 1e78a76329b2d4d867adadaaa367428296d5584b
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  SnowplowTracker: 6d37e5411b4bdc4c254ab19cb7df41e81bbd0a13
+
+PODFILE CHECKSUM: 8c5ce3fdc38474ffb88c3d40c600a6c1d4e97d29
+
+COCOAPODS: 1.11.0
